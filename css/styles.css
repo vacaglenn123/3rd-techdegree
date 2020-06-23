@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  font-family: 'Chathura', sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+header {
+  background: #171817;
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+ 
+h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+.header-bottom {
+  text-align: center;
+}
+
+.sub-headline {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-style: italic;
+  width: 80%;
+  margin: auto;
+  color: lightgray;
+}
+
+.form-header {
+  margin-bottom: 20px;
+
+}
+
+.user {
+  
+color:rgb(130, 138, 132) ;
+
+}
+
+.contact-form {
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: rgba(225, 240, 229, .57);
+  color: rgba(9, 10, 9);
+}
+
+::placeholder {
+
+  color: lightgray;
+}
+
+#state {
+    color: gray;
+
+
+}
+
+img {
+display: block;
+width: 100%;
+image-rendering: auto;
+height: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+.zip {
+  width: 50%;
+}
+
+
+
+input[type=checkbox] :focus{
+
+  color: rgb(35, 97, 231);
+
+
+}
+
+.newsletter {
+  
+  color: gray;
+}
+
+legend {
+  font-weight: bolder;
+  color: black;
+}
+
+.form-header {
+  color: black;
+
+
+}
+
+.signup {
+  display: inline-block;
+  margin-top: 35px;
+  color: white;
+  background: rgb(70, 180, 248);
+  height: 50px;
+  width: 100%;
+  border: 0px solid  rgb(70, 180, 248);
+}
+
+
+footer {
+  text-align: center;
+  font-style: italic;
+  color: lightgray;
+}
+
+h2{
+  margin-bottom: 0;
+
+}
+
+@media (min-width: 768px) {
+
+  .user input, 
+  .user select {
+    margin-left: 100px;
+
+  }
+
+  .user label {
+    flex-wrap: wrap-reverse;
+
+  }
+
+  .ex-head,
+  .newsletter-wrap {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .user input,
+  .user select {
+    flex-basis: 70%;
+    flex-grow: 1;
+    margin-bottom: 0;
+    margin-left: 30px;
+  }
+
+  .user label{
+    flex-basis: 25%;
+
+  }
+
+  .info br {
+    display:none;
+
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    color: black;
+    background-color: rgb(252, 255, 79);
+    transition-property: background-color;
+    transition-delay: .5s;
+    transition-duration: 2s;
+
+  }
+
+  textarea {
+    width:100%;
+
+  }
+
+}
