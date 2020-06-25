@@ -16,38 +16,38 @@
       <h2>Signup for our Newsletter</h2>
         <p class="sub-headline">Get the latest news on how your code is doing right in your inbox</p>
     </div>
-    <img src="picture.png" >
+    <img src="picture.png" alt="line break">
    <div class="ex-head">
       <form action="index.html" method="POST">
       <div class="info">
       <fieldset>
         
-          <legend class="form-header">Contact Information</legend>
+          <h2 class="form-header">Contact Information</h2>
             <div class="user">
             
               
-              <label for="fname"  >Full Name</label><br/>
-                <input class="contact-form" type ="text" name="fname" placeholder="Required" required>
+              <label for="contact-name"  >Full Name</label><br/>
+                <input class="contact-form" type ="text" name="name" id="contact-name" placeholder="Required" required>
                 <br/>
             </div> 
             <div class="user">
               <label for="email">Email Address</label><br/>
-                <input type="post" name="email" class="contact-form" placeholder="Required" required>
+                <input type="text" id="email" name="email" class="contact-form" placeholder="Required" required>
                 <br/>
             </div>
           <div class="user">
               <label for="number">Phone Number</label> <br/>
-                <input type="post" name="number" class="contact-form">
+                <input type="text" id="number" name="number" class="contact-form">
                 <br/>
           </div>
           <div class="user">
               <label for="address">Street Address</label> <br/>
-                <input type="post" name=" address" class="contact-form">
+                <input type="text" id="address" name=" address" class="contact-form">
                 <br/>
           </div>
           <div class="user">
             <label for="city">City</label> <br/>
-                  <input type="post" name="city" class="contact-form">
+                  <input id="city" type="text" name="city" class="contact-form">
                   <br/>
           </div>
           <div class="user">
@@ -61,50 +61,58 @@
           </div>
           <div class="user">
               <label for="zip">ZIP Code </label><br/>
-                <input type="post" name="zip" class="contact-form zip">
+                <input type="text" id="zip" name="zip" class="contact-form zip">
                 <br/>
           </div>
       </fieldset>
     </div>
         <hr style="width:99%; height: 2px; background-color: black; text-align:center;">
-      <div >
-        <fieldset class="newsletter">
-            <legend class="form-header">Newsletter</legend>
-              <p>Select the newsletters you like to recieve</p>
+            
+    <fieldset class="newsletter">
+
+              <h2 class="form-header">Newsletter</h2>
+
+
+            <p>Select the newsletters you like to recieve</p>
                 <input type="checkbox" id="html" name="html" value="htmlnews">
-                <label for="html">HTML News</label><br>
+                <label for="html">HTML News</label><br/>
                 <input type="checkbox" id="css" name="css" value="cssnews">
                 <label for="css">CSS News</label><br/>
                 <input type="checkbox" id="javascript" name="javascript" value="javascriptnews">
                 <label for="javascript">Javascript News</label><br/>
           
         
-        <div class="newsletter-wrap">
           
-            <legend class="newsletter-format">Newsletter format</legend>
+          <h2 class="newsletter-format">Newsletter format</h2>
+          <div class="newsletter-wrap">
 
-            <input name="newsformat" type="radio"  id="html" value="html">
-            <label for="html">HTML</label>
+            <input name="newsformat" type="radio"  id="html-radio" value="html">
+            <label for="html-radio">HTML</label>
             <br/>
             <input name="newsformat" type="radio" id="text" value="text">
             <label for="text" >Plain Text</label>
             
             <p>Other topics you'd like to hear about</p>
             <label></label>
-            <textarea id="textarea" name="" rows="2" cols="70"></textarea>
+            <textarea id="textarea" name="textarea" rows="2" cols="70"></textarea>
             <br/><br/>
             <input type="submit" value="Sign up" class="signup">
+          </div>
 
         </fieldset>
-      </div>
       
       </form>
     
+    </div>
+    <footer>
+      <p>Copyright The Code Review</p>
+    </footer>
 
     </body>
-  <footer>
-    <p>Copyright The Code Review</p>
+
+   
+   
 
 
-  </footer>
+  
 </html>
