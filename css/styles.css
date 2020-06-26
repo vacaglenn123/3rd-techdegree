@@ -2,7 +2,7 @@
   box-sizing: border-box;
   max-width: 100%;
   font-family: 'Chathura', sans-serif;
-  font-size: xx-large;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ color:rgb(130, 138, 132) ;
   margin-top: 10px;
   height: 50px;
   margin-bottom: 10px;
-  background-color: rgba(225, 240, 229, .57);
+  background-color: rgba(225, 240, 229, 0.63);
   color: rgba(9, 10, 9);
 }
 
@@ -75,6 +75,7 @@ margin-bottom: 30px;
 
 .zip {
   width: 50%;
+  background-color: rgb(245, 245, 245);
 }
 
 
@@ -87,7 +88,7 @@ input[type=checkbox] :focus{
 }
 
 .newsletter {
-  
+  width: auto;
   color: gray;
 }
 
@@ -124,8 +125,31 @@ h2{
 
 }
 
+textarea {
+  width: 100%;
+  font-size: 5px;
+} 
 @media (min-width: 768px) {
 
+  
+.zip {
+  background-color: rgb(245, 245, 245);
+}
+
+
+/*    */
+/* .contact-form { */
+  /* width: 100%; */
+  /* margin-top: 10px; */
+  /* height: 50px; */
+  /* margin-bottom: 10px; */
+  /* background-color: rgba(225, 240, 229, 0.63); */
+  /* color: rgba(9, 10, 9); */
+/* } */
+
+
+
+  
   .user input, 
   .user select {
     margin-left: 100px;
@@ -157,6 +181,12 @@ h2{
     margin-left: 30px;
   }
 
+
+.user text {
+  width: 40px;
+
+}
+
   .user label{
     flex-basis: 25%;
 
@@ -182,5 +212,6 @@ h2{
     width:100%;
 
   }
+
 
 }
