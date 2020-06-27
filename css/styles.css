@@ -132,9 +132,11 @@ textarea {
 @media (min-width: 768px) {
 
   
-.zip {
-  background-color: rgb(245, 245, 245);
-  width: 50%;
+#zip {
+  /* background-color: rgb(245, 245, 245); */
+  /* width: 50%; */
+  flex-basis: 20%;
+  flex-grow: 0;
 }
 
 
@@ -183,10 +185,10 @@ textarea {
   }
 
 
-.user text {
-  width: 40px;
-
-}
+/* .user text { */
+  /* width: 40px; */
+/*  */
+/* } */
 
   .user label{
     flex-basis: 25%;
