@@ -164,8 +164,7 @@ textarea {
 
   }
 
-  .ex-head,
-  .newsletter-wrap {
+  .ex-head {
     max-width: 80%;
     margin: 0 auto;
   }
