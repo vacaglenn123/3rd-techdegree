@@ -128,7 +128,18 @@ h2{
 textarea {
   width: 100%;
   font-size: 5px;
-} 
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  color: black;
+  background-color: rgb(252, 255, 79);
+  transition-property: background-color;
+  transition-delay: .5s;
+  transition-duration: 2s;
+}
+
 @media (min-width: 768px) {
 
   
