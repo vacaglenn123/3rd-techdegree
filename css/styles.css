@@ -130,6 +130,7 @@ h2{
 textarea {
   width: 100%;
   font-size: 5px;
+  height: 150px;
 }
 
 input:focus,
